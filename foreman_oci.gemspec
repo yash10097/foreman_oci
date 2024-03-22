@@ -1,12 +1,12 @@
-require File.expand_path('lib/foreman_plugin_template/version', __dir__)
+require File.expand_path('lib/foreman_oci/version', __dir__)
 
 Gem::Specification.new do |s|
-  s.name        = 'foreman_plugin_template'
+  s.name        = 'foreman_oci'
   s.version     = ForemanPluginTemplate::VERSION
   s.metadata    = { 'is_foreman_plugin' => 'true' }
   s.license     = 'GPL-3.0'
-  s.authors     = ['TODO: Your name']
-  s.email       = ['TODO: Your email']
+  s.authors     = ['Yash Lamba']
+  s.email       = ['yash.lamba@oracle.com']
   s.homepage    = 'TODO'
   s.summary     = 'TODO: Summary of ForemanPluginTemplate.'
   # also update locale/gemspec.rb
